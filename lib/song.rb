@@ -50,6 +50,7 @@ class Song
     binding.pry
     song.artist_name = array[0]
     song.name = array[1].chomp(".mp3")
+    song 
   end
 
 
